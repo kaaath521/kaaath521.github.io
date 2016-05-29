@@ -1,3 +1,5 @@
+@import url(@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lobster+Two);
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,16 +7,20 @@
 
 body { 
 	background-image: url(../images/005.jpg);
-	}
+	width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
 
 header {
 	background-color: #86d1bc;
 	padding: 15px;
 }
 
-h1 { font-family: 'Lobster Two', cursive;
-color: white;
-font-size: 48px
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 48px
 }
 
 h2 {
@@ -34,6 +40,8 @@ h3 {
 p { font-family: 'Open Sans', sans-serif; 
 	color: white;
 	padding-left: 15px;
+	line-height: normal;
+	margin-bottom: .75em; 
 }
 
 ul {
@@ -42,6 +50,7 @@ ul {
 	color: white;
 	padding-left: 55px;
 	padding-top: 10px;
+	margin-bottom: 1em;
 }
 
 nav a {

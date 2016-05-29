@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lobster+Two);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body { 
+    height: auto;
+    background-repeat: no-repeat;
+    padding-left:;
+}
+
+header {
+	background-image: url(../images/color14.png);
+	background-size: 100%;
+	padding: 14px;
+	position: center;
+}
+
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 48px
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: #cec5ef;
+	font-size: 20px;
+}
+
+h3 { 
+	font-family: 'Lobster Two', cursive;
+	color: #5ec2a5;
+	font-size: 20px;
+	padding:10px 0px 8px 15px;
+}
+
+h4 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 20px;
+	padding: 4px 0px 8px 15px;
+}
+
+
+p { 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	color: black;
+	padding-left: 15px;
+	line-height: normal;
+	margin-bottom: .75em; 
+}
+
+ul {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: black;
+	padding-left: 55px;
+	margin-bottom: 1em;
+}
+
+div {
+	padding-bottom:3px;
+	padding-top: 8px;
+}
+
+
+
+
+
+
+
+
