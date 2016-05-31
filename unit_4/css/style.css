@@ -3,12 +3,15 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 
 body { 
-    height: auto;
     background-repeat: no-repeat;
-    padding-left:;
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: normal;
 }
 
 header {
@@ -17,7 +20,9 @@ header {
 	padding: 14px;
 	position: center;
 }
-
+section {
+	padding:5em 0;
+}
 h1 { 
 	font-family: 'Lobster Two', cursive;
 	color: white;
@@ -25,7 +30,6 @@ h1 {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	color: #cec5ef;
 	font-size: 20px;
@@ -46,19 +50,11 @@ h4 {
 }
 
 
-p { 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 14px;
-	color: black;
-	padding-left: 15px;
-	line-height: normal;
-	margin-bottom: .75em; 
+p {
+	margin-bottom: .75em;
 }
 
 ul {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: black;
 	padding-left: 55px;
 	margin-bottom: 1em;
 }
@@ -67,8 +63,9 @@ div {
 	padding-bottom:3px;
 	padding-top: 8px;
 }
-
-
+.logo {
+	width:10em;
+}
 
 
 
