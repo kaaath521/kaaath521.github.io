@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lobster+Two);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body { 
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+header {
+	background-color: #FFED74;
+	padding: 14px;
+}
+
+section {
+	padding: 1em 0;
+	background-color: #FFE2B8;
+}
+
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 48px
+}
+
+h2 {
+	font-weight: lighter;
+	color: #cec5ef;
+	font-size: 20px;
+}
+
+p {
+	margin-bottom: .75em;
+}
+
+ul {
+	padding-left: 55px;
+	margin-bottom: 1em;
+}
+
+div {
+	padding-bottom:1px;
+	padding-top: 1px;
+}
+
+#portfolio {
+	background-color: #FFE2B8;
+	padding: 15px;
+}
+
+#about {
+	padding-left: 15px;
+	background-color: #E89C6C;
+}
+
+#references {
+	background-color: #3f2a48;
+	padding-left: 15px;
+}
+
+#portrait {
+	width: 125px;
+	height: 125px;
+	background-color: #FFC675;
+}
+
+#social {
+	padding-left:15px;
+	background-color: #FF957E;
+}
+
+.whitetext {
+	color: white;
+}
+
+.whitescript {
+	color: white;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 22px;
+}
+
+.tealscript {
+	color: #86d1bc;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 22px;
+}
+
+.logo {
+	width:10em;
+}
+
+
+
