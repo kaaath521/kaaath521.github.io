@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lobster+Two);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body { 
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+header {
+	background-image: url(../images/backgrounds/color14.png);
+	background-size: 100%;
+	padding: 14px;
+	height: 450px;
+}
+
+section {
+	padding: 1em 0;
+}
+
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 52px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: lighter;
+	color: #cec5ef;
+	font-size: 24px;
+	text-align: center;
+}
+
+p {
+	margin-bottom: .75em;
+}
+
+ul {
+	padding-left: 55px;
+	margin-bottom: 1em;
+}
+
+div {
+	padding-bottom:1px;
+	padding-top: 1px;
+}
+
+a {
+	color: #86d1bc;
+}
+
+a:hover {
+	color: #49b697;
+}
+
+#portfolio {
+	background-color: #86d1bc;
+	padding: 15px;
+}
+
+#about {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+#references {
+	background-image: url(../images/backgrounds/reference_background.jpg);
+	background-size: 100%;
+	padding-left: 15px;
+	height: 250px;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+#social {
+	padding-left:15px;
+}
+
+#left {
+    padding: 20px;
+    float:left;
+    width: 45%;
+}
+
+#right {
+    padding: 20px;
+    float: right;
+    width: 55%;
+}
+
+.socialicons {
+	font-size: 28px;
+	color: #86d1bc;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+.whitetext {
+	color: white;
+}
+
+.whitescript {
+	color: white;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 24px;
+}
+
+.tealscript {
+	color: #86d1bc;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 24px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.centertitle {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width:700px;
+}
