@@ -9,12 +9,14 @@
 body { 
     color:#222;
     font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
+	word-wrap: normal;
 }
 
 header {
 	background-image: url(../images/backgrounds/color14.png);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	padding: 14px;
 	height: 450px;
 }
@@ -39,11 +41,13 @@ h2 {
 
 p {
 	margin-bottom: .75em;
+	max-width: 75ch;
 }
 
 ul {
 	padding-left: 55px;
 	margin-bottom: 1em;
+	max-width: 75ch;
 }
 
 div {
@@ -51,13 +55,24 @@ div {
 	padding-top: 1px;
 }
 
-a {
-	color: #86d1bc;
+nav {
+	background-color: #ff8a47;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 12px;
+	display: inline-block;
+	width: 150px;
 }
 
-a:hover {
-	color: #49b697;
+nav:hover {
+	background-color: #fd9c65;
 }
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
 
 #portfolio {
 	background-color: #86d1bc;
@@ -73,11 +88,10 @@ a:hover {
 	background-image: url(../images/backgrounds/reference_background.jpg);
 	background-size: 100%;
 	padding-left: 15px;
-	height: 250px;
+	height: 325px;
 }
 
 #logo {
-    width: 100%;
     height: auto;
 }
 
@@ -87,30 +101,29 @@ a:hover {
 
 #left {
     padding: 20px;
-    float:left;
+    float: left;
     width: 45%;
 }
 
 #right {
     padding: 20px;
-    float: right;
+    float: left;
     width: 55%;
 }
 
-.socialicons {
-	font-size: 28px;
-	color: #86d1bc;
-	display: inline-block;
-	margin-right: 4px;
+.column {
+	float: left;
+	width: 250px
+	padding: 15px;
 }
 
 .clearfix:after {
-    visibility: hidden;
+    visibility:hidden;
     display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
   }
 
 .whitetext {
