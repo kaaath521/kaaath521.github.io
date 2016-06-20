@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lobster+Two);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body { 
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	word-wrap: normal;
+}
+
+header {
+	background-image: url(../images/backgrounds/color14.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 14px;
+}
+
+section {
+	padding: 1em 0;
+}
+
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 3.25em;
+	text-align: center;
+}
+
+h2 {
+	font-weight: lighter;
+	color: #cec5ef;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+p {
+	margin-bottom: .75em;
+}
+
+ul {
+	padding-left: 55px;
+	margin-bottom: 1em;
+}
+
+div {
+	padding-bottom:1px;
+	padding-top: 1px;
+}
+
+nav {
+	background-color: #ff8a47;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 12px;
+	display: inline-block;
+	width: 150px;
+}
+
+nav:hover {
+	background-color: #fd9c65;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portfolio {
+	background-color: #86d1bc;
+	padding: 15px;
+	width: 100%;
+}
+
+#about {
+	padding-left: 15px;
+	padding-top: 15px;
+	width: 100%;
+}
+
+#references {
+	background-image: url(../images/backgrounds/reference_background.jpg);
+	background-size: contain;
+	padding-left: 15px;
+	width: 100%;
+}
+
+#logo {
+    height: auto;
+}
+
+#social {
+	padding-left:15px;
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 45%;
+}
+
+#right {
+    padding: 20px;
+    float: left;
+    width: 55%;
+}
+
+.column {
+	float: left;
+	width: 250px
+	padding: 15px;
+}
+
+.clearfix:after {
+    visibility:hidden;
+    display: block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+  }
+
+.whitetext {
+	color: white;
+	font-size: 1em;
+}
+
+.whitescript {
+	color: white;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 1.5em;
+}
+
+.tealscript {
+	color: #86d1bc;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 1.5em;
+}
+
+.centertitle {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width:700px;
+}
+
+.logo {
+	text-align: center;
+	width: inherit;
+}
