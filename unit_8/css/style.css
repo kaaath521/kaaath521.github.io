@@ -9,7 +9,7 @@
 body { 
     color:#222;
     font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	word-wrap: normal;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 section {
-	padding: 5em 0;
+	padding: 4em 0;
 }
 
 h1 { 
@@ -41,25 +41,21 @@ h2 {
 
 p {
 	margin-bottom: .75em;
+	font-size: 1em;
 }
 
 ul {
-	padding-left: 55px;
+	padding-left: 3.5em;
 	margin-bottom: 1em;
-}
-
-div {
-	padding-bottom:1px;
-	padding-top: 1px;
+	width: 55ch;
 }
 
 nav {
 	background-color: #ff8a47;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	padding: 12px;
+	padding: 1em;
 	display: inline-block;
-	width: 150px;
 }
 
 nav:hover {
@@ -72,28 +68,29 @@ a {
 }
 
 #portfolio img {
-    width: 25%;
+    padding: .5em;
     float: left;
+}
+
+#about img {
+	padding: 0 0 1.5em 0 ;
 }
 
 #portfolio {
 	background-color: #86d1bc;
-	padding: 15px;
-	/* width: 1200px; */
+	padding: 1em;
 	margin: auto;
 }
 
 #about {
-	/* padding-left: 15px; */
-	/* padding-top: 15px; */
-	width: 600px;
+	width: 37.5em;
 	margin: auto;
 }
 
 #references {
 	background-image: url(../images/backgrounds/reference_background.jpg);
 	background-size: contain;
-	padding-left: 15px;
+	padding-left: 1em;
 	width: 100%;
 }
 
@@ -102,11 +99,14 @@ a {
 }
 
 #social {
-	padding-left:15px;
+	padding-left:1em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .column {
-    padding: 20px;
+    padding: 1.25em;
     float: left;
     width: 50%;
 }
@@ -127,23 +127,26 @@ a {
 .whitescript {
 	color: white;
 	font-family: 'Lobster Two'; cursive;
-	font-size: 1.5em;
+	font-size: 1.75em;
+	text-align: center;
 }
 
 .tealscript {
 	color: #86d1bc;
 	font-family: 'Lobster Two'; cursive;
-	font-size: 1.5em;
+	font-size: 1.75em;
+	text-align: center;
 }
 
 .centertitle {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	/* width:700px; */
 }
 
-.logo {
+.logoimage {
 	text-align: center;
-	width: inherit;
+	width: 100%;
+    height: auto;
 }
+
