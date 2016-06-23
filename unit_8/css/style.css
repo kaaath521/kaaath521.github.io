@@ -35,7 +35,7 @@ h1 {
 h2 {
 	font-weight: lighter;
 	color: #cec5ef;
-	font-size: 1.5em;
+	font-size: 1.65em;
 	text-align: center;
 }
 
@@ -47,7 +47,6 @@ p {
 ul {
 	padding-left: 3.5em;
 	margin-bottom: 1em;
-	width: 55ch;
 }
 
 nav {
@@ -67,24 +66,25 @@ a {
 	text-decoration: none;
 }
 
-#portfolio img {
-    padding: .5em;
-    float: left;
-}
-
-#about img {
-	padding: 0 0 1.5em 0 ;
-}
-
 #portfolio {
 	background-color: #86d1bc;
 	padding: 1em;
-	margin: auto;
+}
+
+#portfolio .inner {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 #about {
-	width: 37.5em;
-	margin: auto;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#about img {
+	padding: 0 0 1.5em 0;
 }
 
 #references {
@@ -92,6 +92,12 @@ a {
 	background-size: contain;
 	padding-left: 1em;
 	width: 100%;
+}
+
+#references .inner {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 #logo {
@@ -105,11 +111,31 @@ a {
 	margin-right: auto;
 }
 
+#social img {
+	padding-bottom: .75em;
+}
+
+.portfolioitem {
+	width: 25%;
+	padding: 1%;
+	float: left;
+}
+
+.portfolioitem img {
+	display: block;
+	width: 100%;
+}
+
+.portfolioitem50 {
+	width: 50%;
+}
+
 .column {
     padding: 1.25em;
     float: left;
     width: 50%;
 }
+
 .clearfix:after {
     visibility:hidden;
     display: block;
@@ -138,15 +164,104 @@ a {
 	text-align: center;
 }
 
-.centertitle {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.logoimage {
-	text-align: center;
-	width: 100%;
+#logoimage {
+	width: 75%;
+	max-width: 20em;
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
+
+/* All Smartphones in portrait and landscape */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+	h1 {
+		font-size: 2.65em;
+	}
+
+	h2 {
+		font-size: 2.2em;
+	}
+
+	section {
+		padding: 2em;
+	}
+
+	p {
+		font-size: .80em;
+	}
+
+	ul {
+		font-size: .75em;
+	}
+
+	nav {
+		padding: .75em;
+	}
+
+	.whitetext {
+		font-size: .75em;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	#logoimage {
+		max-width: 12.5em;
+	}
+
+	#about img {
+		max-width: 7em;
+	}
+
+	.portfolioitem {
+		width: 50%;
+	}
+
+	.portfolioitem50 {
+		width: 100%;
+	}
+}
+
+/* iPhone 5 */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: .75em;
+	}
+
+	#logoimage {
+		max-width: 9.5em;
+	}
+
+	a {
+		font-size: .75em;
+	}
+
+	nav {
+		padding: .55em ;
+	}
+}
+
+/* iPad Mini */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#about {
+		width: 37.5em ;
+	}
+}
