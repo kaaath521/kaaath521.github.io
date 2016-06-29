@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lobster+Two);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body { 
+    color:#222;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	word-wrap: normal;
+}
+
+header {
+	background-image: url(../images/backgrounds/color14.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 4em 0;
+	text-align: center;
+}
+
+section {
+	padding: 4em 0;
+}
+
+h1 { 
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 3.25em;
+	text-align: center;
+}
+
+h2 {
+	font-weight: lighter;
+	color: #cec5ef;
+	font-size: 1.65em;
+	text-align: center;
+}
+
+p {
+	margin-bottom: .75em;
+	font-size: 1em;
+}
+
+ul {
+	padding-left: 3.5em;
+	margin-bottom: 1em;
+}
+
+nav {
+	background-color: #ff8a47;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 1em;
+	display: inline-block;
+}
+
+nav:hover {
+	background-color: #fd9c65;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#portfolio {
+	background-color: #86d1bc;
+	padding: 1em;
+}
+
+#portfolio .inner {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#about {
+	width: 100%;
+	max-width: 875px;
+	margin: 0 auto;
+}
+
+#about img {
+	padding: 0 0 1.5em 0;
+}
+
+#references {
+	background-image: url(../images/backgrounds/reference_background.jpg);
+	background-size: contain;
+	padding-left: 1em;
+	width: 100%;
+}
+
+#references .inner {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#logo {
+    height: auto;
+}
+
+#social {
+	padding-left:1em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social img {
+	padding-bottom: .75em;
+}
+
+#logoimage {
+	width: 75%;
+	max-width: 20em;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.portfolioitem {
+	width: 25%;
+	padding: 1%;
+	float: left;
+}
+
+.portfolioitem img {
+	display: block;
+	width: 100%;
+}
+
+.portfolioitem50 {
+	width: 50%;
+}
+
+.column {
+    padding: 1.25em;
+    float: left;
+    width: 50%;
+}
+
+.clearfix:after {
+    visibility:hidden;
+    display: block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+  }
+
+.whitetext {
+	color: white;
+	font-size: 1em;
+}
+
+.whitescript {
+	color: white;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 1.75em;
+	text-align: center;
+}
+
+.tealscript {
+	color: #86d1bc;
+	font-family: 'Lobster Two'; cursive;
+	font-size: 1.75em;
+	text-align: center;
+}
+
+
+/* All Smartphones in portrait and landscape */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+	h1 {
+		font-size: 2.65em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	section {
+		padding: 2em;
+	}
+
+	p {
+		font-size: .80em;
+	}
+
+	ul {
+		font-size: .75em;
+	}
+
+	nav {
+		padding: .75em;
+	}
+
+	.whitetext {
+		font-size: .75em;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	#logoimage {
+		max-width: 12.5em;
+	}
+
+	#about img {
+		max-width: 7em;
+	}
+
+	.portfolioitem {
+		width: 50%;
+	}
+
+	.portfolioitem50 {
+		width: 100%;
+	}
+}
+
+/* iPhone 5 */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.05em;
+	}
+
+	#logoimage {
+		max-width: 9.5em;
+	}
+
+	a {
+		font-size: .75em;
+	}
+
+	nav {
+		padding: .55em ;
+	}
+}
+
+/* iPad Mini */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#about {
+		width: 37.5em ;
+	}
+}
